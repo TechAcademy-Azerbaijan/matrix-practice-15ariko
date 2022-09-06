@@ -7,4 +7,14 @@ let matrix = [
     [4, 5, 6, 7, 7]
 ]
 
-// Write code here. 
+let sum = 0;
+let min_index = 0;
+
+for (let i = 0; i < matrix.length; i++) {
+  for (let j = 0; j < matrix[i].length; j++) {
+    if (matrix[i][j] == 1) {
+      min_index = [i + 1];
+      console.log(min_index.join(" "));
+    }
+  }
+}
