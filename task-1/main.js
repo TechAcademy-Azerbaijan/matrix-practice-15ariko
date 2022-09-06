@@ -2,7 +2,7 @@
 let matrix = [
     [4, -2, 5],
     [1, -4, -12],
- let sum = 0;
+let sum = 0;
 let count = 0;
 for (let q = 0; q < matrix.length; q++) {
   for (let t = 0; t < matrix[q].length; t++) {
@@ -12,5 +12,4 @@ for (let q = 0; q < matrix.length; q++) {
     }
   }
 }
-console.log(sum);
-
+console.log(`${count}\n${sum}`);
