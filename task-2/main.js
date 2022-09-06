@@ -10,4 +10,13 @@ let matrix = [
 let r = 3;
 let c = 2;
 
-// Write code here. 
+for (let i = 0; i < r.length; i++) {
+  const element = matrix[i];
+  for (let j = 0; j < c.length; j++) {
+    const element2 = element[j];
+    for (let b = 1; b < c; b++) {
+      const element3 = element[b];
+      console.log(`${element2} ${element3}`);
+    }
+  }
+}
