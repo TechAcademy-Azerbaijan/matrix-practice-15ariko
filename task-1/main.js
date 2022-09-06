@@ -4,11 +4,11 @@ let matrix = [
     [1, -4, -12],
 let sum = 0;
 let count = 0;
-for (let q = 0; q < matrix.length; q++) {
-  for (let t = 0; t < matrix[q].length; t++) {
-    if (matrix[q][t] < 0 && matrix[q][t] % 2 == 0) {
+for (let i = 0; i < matrix.length; i++) {
+  for (let j = 0; j < matrix[i].length; j++) {
+    if (matrix[i][j] < 0 && matrix[i][j] % 2 == 0) {
       count++;
-      sum += matrix[q][t];
+      sum += matrix[i][j];
     }
   }
 }
